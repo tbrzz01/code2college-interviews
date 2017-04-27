@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+  
+  <title>Fix Defects</title>
+  <style>
+    div{
+        margin: 10px;
+        border: 2px solid;
+        padding: 5px;
+    }
+  
+  </style>
+  
+  <script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
+  <script>
+  
+  $(document).ready(function(){
+    // Fix these defects
+    // 1. Only the clicked list item (li) should highlighted in yellow when an individual list item (li) is clicked.
+    // 2. Only the clicked list item should be de-highlighted (white) when an invididual list item is highlighted.
+    // 3. When button is clicked, it should add a new list item to the corresponding unordered list (ul) 
+    //  with the number of list items plus 1, for example, if you add list item to id="ul1-list" the new list item should
+    //  be "Item 4"
+
+    // Features to add
+    // 1. Show count of list items next to span. This should update when new list items are displayed.
+    // 2. When a list item is clicked, it should also underline list items from other lists with the same name, for example,
+    //  when "Item 1" is clicked in list 1, "Item 1" in list 1 should be highlighted and "Item 1" in list 2 should be underlined
+    // 3. When a highlighted item is clicked, any other list item with the same name should remove its underline.
+
+    $("li").click(function(){
+        if($("li").css("background-color") === "rgb(255, 255, 0)") // yellow
+            $("li").css("background-color", "white");
+        else
+            $("li").css("background-color", "yellow");
+    });
+
+    $("#button1").click(function() {
+        var liNumber = $("#ul1-list li").length;
+        $("#ul1-list").append("<li>Item " + liNumber + "</li>");
+    });
+    
+    $("#button2").click(function() {
+        var liNumber = $("#ul2-list li").length;
+        $("#ul2-list").append("<li>Item " + liNumber + "</li>");
+    });
+
+  });
+  
+  </script>
+  
+</head>
+<body>
+
+  <div id="list1">
+    <span>This is my list 1.</span>
+    <ul id="ul1-list">
+        <li id="item1">Item 1</li>
+        <li id="item2">Item 2</li>
+        <li id="item3">Item 3</li>
+    </ul>
+    <button id="button1">Add item to list 1</button>
+  </div>
+  <div id="list2">
+      <span>This is my list 2.</span>
+      <ul id="ul2-list">
+        <li id="item1">Item 1</li>
+        <li id="item2">Item 2</li>
+        <li id="item3">Item 3</li>
+        <li id="item4">Item 4</li>
+      </ul>
+    <button id="button2">Add item to list 2</button>
+  </div>
+  
+</body>
+</html>
+
+
