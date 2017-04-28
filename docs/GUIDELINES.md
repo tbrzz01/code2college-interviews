@@ -66,5 +66,7 @@ $("h1").css("background-color", newBackgroundColor);
 
 2. Even with a computer, writing down code, if possible, can help. This allows you to demonstrate your thought process before committing code to the computer.
 
-3. Solving the problem is better than not solving the problem. If you are struggling with a particular question, think about the simplest part of the problem you can solve and continue working in this way until you have solved the problem entirely.
+3. If using a computer, ***DO NOT USE GOOGLE***. Work with your interviewer when you get stuck.
+
+4. Solving the problem is better than not solving the problem. If you are struggling with a particular question, think about the simplest part of the problem you can solve and continue working in this way until you have solved the problem entirely.
     - Wait until after a problem is solved to review and find ways to improve the solution, as time allows.
