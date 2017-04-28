@@ -13,9 +13,9 @@ Here are some general guidelines to consider when interviewing.
 7. Basic Javascript/CSS/HTML (linking to CSS file, linking to javascript file, HTML elements, etc)
 8. Functions!
 
-[warning] For best results, study for an interview like you would a test.
+:warning: For best results, study for an interview like you would a test.
 
-[warning] Do not be afraid to use programming skills you may have learned outside of Code2College.
+:warning: Do not be afraid to use programming skills you may have learned outside of Code2College.
 
 ## Talking with the Interviewer
 1. Ask Questions: If there’s something missing or you need clarification on anything, don’t be afraid to ask questions during the interview.
