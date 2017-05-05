@@ -8,6 +8,7 @@ Refer to the [guidelines](https://github.com/tebriggs86/code2college-interviews/
 - [Coding etiquette while interviewing](https://github.com/tebriggs86/code2college-interviews/blob/master/docs/GUIDELINES.md#coding-etiquette-while-interviewing)
 
 Refer to the [questions](https://github.com/tebriggs86/code2college-interviews/tree/master/questions) for practice interview-style exercises.
+- These [verbal](https://github.com/tebriggs86/code2college-interviews/tree/master/questions/verbal) questions are questions you _should just know_. A good place to start and good topics to review.
 - Try solving the questions by hand before typing into a computer
 - Refrain from googling for answers
 - Write your code as cleanly as possible
