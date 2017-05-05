@@ -1,3 +1,13 @@
 # Technical Questions
 
 These questions are based on lessons learned in Code2College classes during the 2016-2017 school year.
+
+# Verbal Questions
+
+The following questions can be asked verbally to the interviewees:
+1. What are the different _types_ a javascript variable can be? (For example, a Number...)
+1. What is an *expression* and where do you use it?
+1. How do I access an item in an array?
+1. How do I determine the number of items in an array?
+1. How do I write a for loop that iterates through all items in an array?
+1. What css property(s) can I use to place a `div` on the right side of the screen?
